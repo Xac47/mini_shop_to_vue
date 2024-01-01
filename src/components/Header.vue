@@ -8,15 +8,15 @@
       </div>
     </div>
     <div class="header-end flex gap-10 items-center">
-      <div class="cart flex gap-2 text-gray-500 cursor-pointer hover:text-black">
+      <div class="cart flex gap-2 text-gray-500 cursor-pointer hover:text-black transition duration-300">
         <img src="/cart.svg" alt="" />
         <span>1205 руб.</span>
       </div>
-      <div class="favorites flex gap-2 text-gray-500 cursor-pointer hover:text-black">
+      <div class="favorites flex gap-2 text-gray-500 cursor-pointer hover:text-black transition duration-300">
         <img src="/heart.svg" alt="" />
         <span>Закладки</span>
       </div>
-      <div class="profile flex gap-2 text-gray-500 cursor-pointer hover:text-black">
+      <div class="profile flex gap-2 text-gray-500 cursor-pointer hover:text-black transition duration-300">
         <img src="/profile.svg" alt="" />
         <span>Профиль</span>
       </div>
