@@ -1,7 +1,7 @@
 <script setup>
 import Header from './components/Header.vue'
 import BlockInfo from './components/BlockInfo.vue'
-import Product from './components/Product.vue'
+import ProductList from './components/ProductList.vue'
 </script>
 
 <template>
@@ -30,12 +30,7 @@ import Product from './components/Product.vue'
           <input type="text" placeholder="Поиск..." />
         </form>
       </div>
-      <div class="block-main-end mt-10 grid grid-cols-4 flex gap-10">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-      </div>
+      <ProductList />
     </div>
   </div>
 </template>
